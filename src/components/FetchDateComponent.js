@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardHeader } from 'reactstrap';
 import axios from 'axios';
+import { Card,CardBody, CardHeader } from 'reactstrap';
 
 class FetchDate extends Component{
     state = {
@@ -20,12 +20,12 @@ class FetchDate extends Component{
     
     render() {
         return(
-           <Card className="bg-primary text-white">
-               <CardHeader className="bg-primary text-white">LIVE DATE</CardHeader>
-               <CardBody>
-               <h1>{this.state.date}</h1>
-               </CardBody>
-           </Card>
+          <Card className="mt-5 ml-4 p-5 datecard text-center"  border="light" style={{width:"85%",borderRadius: 0 }}>
+          <CardHeader><h3 className="text">LIVE DATE</h3></CardHeader>
+            <CardBody>
+              <h3 className="textdate">{this.state.date}</h3>
+            </CardBody>
+          </Card>
         );
     }
 }

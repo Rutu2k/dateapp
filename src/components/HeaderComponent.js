@@ -8,19 +8,22 @@ class Header extends Component {
     <React.Fragment>
       <Navbar dark>
         <div className="container">
-            <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
+            <NavbarBrand href="/">Time Co.Ltd.</NavbarBrand>
         </div>
       </Navbar>
       <Jumbotron>
            <div className="container">
                <div className="row row-header">
-                   <div className="col-12 col-sm-6">
-                       <h1>Ristorante con Fusion</h1>
-                       <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                   </div>
-                   <div className="col-12 col-sm-6">
-                        <FetchDate></FetchDate>
-                   </div>
+                  <div className="col-12 col-sm-4">
+                    <FetchDate></FetchDate>
+                  </div>
+                  <div className="col-12 col-sm-8 text-right">
+                      <h1  className="texttime">Time</h1>
+                      <br></br>
+                      <h5 >"Your greatest resource is your time!"</h5>
+                      <hr color="grey"></hr>
+                      <p>" Lorem Ipsum Your greatest resource is your time! Lorem Ipsum Your greatest resource is your time! Lorem Ipsum Your greatest resource is your time! Lorem Ipsum Your greatest resource is your time! "</p>
+                  </div>
                </div>
            </div>
        </Jumbotron>
