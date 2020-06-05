@@ -32,7 +32,7 @@ class Menu extends Component {
                     <Media heading>{dish.name}</Media>
                     <p>{dish.description}</p>
                     <h5 >Rs.{dish.price}</h5>
-                    <Button outline >Read More</Button>
+                    <Button outline>Read More</Button>
                 </Media>
 
                 <Media right middle className="sm mt-5">
