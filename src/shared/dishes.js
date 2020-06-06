@@ -29,4 +29,28 @@ export const DISHES = [
         price:'2500.00',
         description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'                        
     }
+    {
+        id: 4,
+        name:'Vintage Diva',
+        image: 'assets/images/4.jpg',
+        category: 'dessert',
+        price:'2500.00',
+        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'                        
+    }
+    {
+        id: 5,
+        name:'Vintage Diva',
+        image: 'assets/images/4.jpg',
+        category: 'dessert',
+        price:'2500.00',
+        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'                        
+    }
+    {
+        id: 6,
+        name:'Vintage Diva',
+        image: 'assets/images/4.jpg',
+        category: 'dessert',
+        price:'2500.00',
+        description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'                        
+    }
 ];
