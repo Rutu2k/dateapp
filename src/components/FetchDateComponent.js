@@ -20,12 +20,9 @@ class FetchDate extends Component{
     
     render() {
         return(
-          <Card className="mt-5 ml-4 p-5 datecard text-center"  border="light" style={{width:"85%",borderRadius: 0 }}>
-          <CardHeader><h3 className="text">LIVE DATE</h3></CardHeader>
-            <CardBody>
-              <h3 className="textdate">{this.state.date}</h3>
-            </CardBody>
-          </Card>
+          <div>
+            <h3 className="datecss">{this.state.date}</h3>
+          </div>
         );
     }
 }
