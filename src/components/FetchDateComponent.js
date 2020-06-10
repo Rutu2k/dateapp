@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Card,CardBody, CardHeader } from 'reactstrap';
 
 class FetchDate extends Component{
     state = {
