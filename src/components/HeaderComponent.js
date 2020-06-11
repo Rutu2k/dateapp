@@ -67,9 +67,9 @@ class Header extends Component {
                   <div className="col-12 text-center" >
                       <h1  className="texttime">Time</h1>
                       <br></br>
-                      <h5 >"Your greatest resource is your time!"</h5>
+                      <h5 >"More than Just Watch !"</h5>
                       <hr color="grey"></hr>
-                      <p>" Lorem Ipsum Your greatest resource is your time! Lorem Ipsum Your greatest resource is your time! Lorem Ipsum Your greatest resource is your time! Lorem Ipsum Your greatest resource is your time! "</p>
+                      <p>"Your greatest resource is your time!" So use your resource wisely.The person who loves time,adores time and respects time,will surely love our watches.We have a great variety of watches like Retro Lovers,Vintage ,Modern,Minimalistic,designer.etc. Everything is here,Lets go and have FUN! We will there for You ;-)</p>
                   </div>
                </div>
            </div>

@@ -6,16 +6,21 @@ class Menu extends Component {
         super(props);
 
         this.state= {
-            isBuyOpen :false
+            isBuyOpen :false,
+            text: "Add to Cart"
         };
         this.toggleBuy = this.toggleBuy.bind(this);
     }
+    changeText = () => {
+        this.setState({ text: "Added to Cart" }); 
+    };
     toggleBuy() {
         this.setState({
             isBuyOpen: !this.state.isBuyOpen
         });
     }
     render() {
+    
     const menu = this.props.dishes.map((dish) => {
         return (
             <>
@@ -33,7 +38,7 @@ class Menu extends Component {
                 </Media>
 
                 <Media right middle className="mt-5">
-                    <Button className="btn"><span className="fa fa-bookmark fa"></span> Add to Cart</Button>
+                    <Button className="btn" onClick={this.changeText}><span className="fa fa-bookmark fa"></span> {this.state.text} </Button>
                     <br></br>
                     <br></br>
                     <Button className="btn" onClick= {this.toggleBuy}><span className="fa fa-tag fa"></span> Buy Item</Button>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Media} from 'reactstrap';
+
 class Contact extends Component {
 
     constructor(props) {
@@ -44,7 +46,7 @@ class Contact extends Component {
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-1 img-fluid img-responsive">
                         <h5>Map of our Location</h5>
-                        <img style={{width: 450, height: 'auto'}} src="https://www.google.com/maps/d/thumbnail?mid=1iwRGIQxDDxc0-SiSEzJbn3eupKc&hl=en" alt="Map should be here"/>                    
+                        <img style={{width: 450, height: 'auto'}} src="https://www.google.com/maps/d/thumbnail?mid=1iwRGIQxDDxc0-SiSEzJbn3eupKc&hl=en" alt="Map should be here"/>                 
                     </div>
                 </div>
             </div>
