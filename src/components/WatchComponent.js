@@ -7,13 +7,9 @@ class Menu extends Component {
 
         this.state= {
             isBuyOpen :false,
-            text: "Add to Cart"
         };
         this.toggleBuy = this.toggleBuy.bind(this);
     }
-    changeText = () => {
-        this.setState({ text: "Added to Cart" }); 
-    };
     toggleBuy() {
         this.setState({
             isBuyOpen: !this.state.isBuyOpen
@@ -21,24 +17,24 @@ class Menu extends Component {
     }
     render() {
     
-    const menu = this.props.dishes.map((dish) => {
+    const menu = this.props.watches.map((watch) => {
         return (
             <>
-            <div key={dish.id} className="col-sm-6 col-md-12 mt-5 border shadow p-3 mb-5 bg-white rounded" >
+            <div key={watch.id} className="col-sm-6 col-md-12 mt-5 border shadow p-3 mb-5 bg-white rounded" >
             <Media tag="li" className="m-1">
                 <Media left  className="img-fluid">
-                    <Media object src={dish.image} style={{width: 300, height: 'auto'}} alt={dish.name} />
+                    <Media object src={watch.image} style={{width: 300, height: 'auto'}} alt={watch.name} />
                 </Media>
 
                 <Media body className="ml-5 mr-4">
-                    <Media heading>{dish.name}</Media>
-                    <p>{dish.description}</p>
-                    <h5 >Rs.{dish.price}</h5>
+                    <Media heading>{watch.name}</Media>
+                    <p>{watch.description}</p>
+                    <h5 >Rs.{watch.price}</h5>
                     <Button outline>Read More</Button>
                 </Media>
 
                 <Media right middle className="mt-5">
-                    <Button className="btn" onClick={this.changeText}><span className="fa fa-bookmark fa"></span> {this.state.text} </Button>
+                    <Button className="btn"><span className="fa fa-bookmark fa"></span> Add to Cart</Button>
                     <br></br>
                     <br></br>
                     <Button className="btn" onClick= {this.toggleBuy}><span className="fa fa-tag fa"></span> Buy Item</Button>

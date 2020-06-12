@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Media} from 'reactstrap';
 
 class Contact extends Component {
 
